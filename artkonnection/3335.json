@@ -1,0 +1,32 @@
+{
+    "name": "Art Konnection #3335",
+    "description": "Konnect artist, Konnect world, Be the One",
+    "image": "ipfs/toChange",
+    "attributes": [
+        {
+            "trait_type": "DotColor",
+            "value": "#D4DBAC"
+        },
+        {
+            "trait_type": "The Number of Dots",
+            "value": "14"
+        },
+        {
+            "trait_type": "LineColor1",
+            "value": "#FF249B"
+        },
+        {
+            "trait_type": "LineColor2",
+            "value": "#5887B3"
+        },
+        {
+            "trait_type": "LineColor3",
+            "value": "#CB2428"
+        },
+        {
+            "trait_type": "LineTension",
+            "value": "0.9240684149732699"
+        }
+    ],
+    "animation_url": "ipfs://QmQGwgQXkrv8zGbjaHv5WJj9QsRzh7L3eqnwYpwfj11Dfx/3335.gltf"
+}
