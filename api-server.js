@@ -10,7 +10,7 @@ const app = express();
 const router = express.Router();
 const port = 80;
 
-const rpcURL = "https://api.baobab.klaytn.net:8651/";
+const rpcURL = "https://node-api.klaytnapi.com/v1/klaytn";
 const caver = new Caver(rpcURL);
 
 const contract = new caver.klay.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
