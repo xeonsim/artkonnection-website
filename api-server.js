@@ -8,7 +8,7 @@ const Caver = require("caver-js");
 const https = require("https");
 const app = express();
 const router = express.Router();
-const port = 80;
+const port = 3000;
 
 const rpcURL = "https://node-api.klaytnapi.com/v1/klaytn";
 const caver = new Caver(rpcURL);
