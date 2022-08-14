@@ -1,6 +1,9 @@
 const express = require("express");
 const path = require("path");
-const { CONTRACT_ABI, CONTRACT_ADDRESS } = require("./contract/artKonnection.js");
+const {
+  CONTRACT_ABI,
+  CONTRACT_ADDRESS,
+} = require("./contract/artKonnection.js");
 const Caver = require("caver-js");
 const app = express();
 const router = express.Router();
@@ -32,7 +35,11 @@ app.get("/api/assets/:tokenNumber", async (req, res) => {
       res.sendFile(path.join(__dirname, `./assets/${tokenNumber}.png`));
     } catch (e) {
       console.log(e);
-      res.sendFile(path.join(__dirname, `./coverassets/altcover.png`));
+      try {
+        res.sendFile(path.join(__dirname, `./assets/${tokenNumber}.gltf`));
+      } catch (e) {
+        res.sendFile(path.join(__dirname, `./coverassets/altcover.png`));
+      }
     }
   } else {
     res.sendFile(path.join(__dirname, "./alt/alt.png"));
