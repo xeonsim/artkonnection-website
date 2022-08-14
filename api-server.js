@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const { CONTRACT_ABI, CONTRACT_ADDRESS } = require("./contract/config.js");
+const { CONTRACT_ABI, CONTRACT_ADDRESS } = require("./contract/artKonnection.js");
 const Caver = require("caver-js");
 const app = express();
 const router = express.Router();
