@@ -1,9 +1,7 @@
 const express = require("express");
 const path = require("path");
-const {
-  CONTRACT_ABI,
-  CONTRACT_ADDRESS,
-} = require("./contract/artKonnection.js");
+const fs = require("fs");
+const { CONTRACT_ABI, CONTRACT_ADDRESS } = require("./contract/config.js");
 const Caver = require("caver-js");
 const app = express();
 const router = express.Router();
@@ -26,21 +24,20 @@ const _tokenURI = async (_tokenID) => {
     });
 };
 
+const assets = fs.readdirSync("./assets");
+
 app.get("/api/assets/:tokenNumber", async (req, res) => {
   const tokenNumber = req.params.tokenNumber;
 
   const _bool = await _tokenURI(tokenNumber);
+  // console.log(_bool);
   if (_bool) {
-    try {
-      res.sendFile(path.join(__dirname, `./assets/${tokenNumber}.png`));
-    } catch (e) {
-      console.log(e);
-      try {
-        res.sendFile(path.join(__dirname, `./assets/${tokenNumber}.gltf`));
-      } catch (e) {
-        res.sendFile(path.join(__dirname, `./coverassets/altcover.png`));
-      }
-    }
+    const file = assets.filter((_file) => {
+      const File = _file.split(".");
+      return File[0] == tokenNumber;
+    });
+    // console.log(file[0]);
+    res.sendFile(path.join(__dirname, `./assets/${file[0]}`));
   } else {
     res.sendFile(path.join(__dirname, "./alt/alt.png"));
   }
