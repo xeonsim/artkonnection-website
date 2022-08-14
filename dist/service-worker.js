@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.436d888ab2ea729b819feefd573d501a.js"
+  "/precache-manifest.2f0a9ead2e3476381eae3bb72694d77a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "art_konnection"});
