@@ -4,12 +4,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/about.46c03a47.css"
   },
   {
-    "revision": "240e88ef461a708da047",
+    "revision": "6253515b34199d514470",
     "url": "/css/app.ca9d65e8.css"
   },
   {
-    "revision": "70c3c9036cbd60188bba",
-    "url": "/css/artistsview.a3f2a529.css"
+    "revision": "2f4c64bd0410513c448c",
+    "url": "/css/artistsview.d939a57a.css"
   },
   {
     "revision": "749f61ddf694573f680f",
@@ -20,19 +20,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/forartistsview.fbec57b4.css"
   },
   {
-    "revision": "6612504128a078c962f6",
-    "url": "/css/home.1243187d.css"
+    "revision": "ece14fd3519450a993a5",
+    "url": "/css/home.f4865ef4.css"
   },
   {
-    "revision": "c300fc6997800fa65355",
-    "url": "/css/roadmapview.9b04b852.css"
+    "revision": "4fa97478dffa382c92d8",
+    "url": "/css/roadmapview.70bf785f.css"
   },
   {
     "revision": "dd5dfe4a386bf34d30a809367e4aa4fe",
     "url": "/img/logo.dd5dfe4a.png"
   },
   {
-    "revision": "58b3f6d837484fc5b0fb5acacd844ea8",
+    "revision": "067a3bff100ae4be31ca0637385cd620",
     "url": "/index.html"
   },
   {
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.f63027d7.js"
   },
   {
-    "revision": "240e88ef461a708da047",
-    "url": "/js/app.4696eb20.js"
+    "revision": "6253515b34199d514470",
+    "url": "/js/app.94b67344.js"
   },
   {
-    "revision": "70c3c9036cbd60188bba",
-    "url": "/js/artistsview.e09969e5.js"
+    "revision": "2f4c64bd0410513c448c",
+    "url": "/js/artistsview.10112095.js"
   },
   {
     "revision": "1d9199d13f330375249e",
@@ -64,16 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/forartistsview.24ed2c0c.js"
   },
   {
-    "revision": "6612504128a078c962f6",
-    "url": "/js/home.3367356a.js"
+    "revision": "ece14fd3519450a993a5",
+    "url": "/js/home.310ea8ea.js"
   },
   {
-    "revision": "d762e0c75022feb39d9f",
-    "url": "/js/inmintingprojectview.8ff0bf18.js"
+    "revision": "4baeba1701e05c2548a3",
+    "url": "/js/inmintingprojectview.139519d5.js"
   },
   {
-    "revision": "c300fc6997800fa65355",
-    "url": "/js/roadmapview.d36765cc.js"
+    "revision": "4fa97478dffa382c92d8",
+    "url": "/js/roadmapview.24c4cec4.js"
   },
   {
     "revision": "51ed32e1c798ec36a45d525c068242c0",
