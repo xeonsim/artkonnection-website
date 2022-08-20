@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/about.b02ff4d5.css"
   },
   {
-    "revision": "dde7973bfa6ab864b41d",
+    "revision": "10cc8e5205ae4ace26ed",
     "url": "/css/app.ca9d65e8.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/artistsview.d939a57a.css"
   },
   {
-    "revision": "e8d95c8a0bc4810a42e4",
-    "url": "/css/foradminview.bdc5216e.css"
+    "revision": "db1fa547f843962f7403",
+    "url": "/css/foradminview.75af698f.css"
   },
   {
     "revision": "ecd314db265eadd2223c",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.dd5dfe4a.png"
   },
   {
-    "revision": "480b76ee1e1f546de5527c381f6d9c1b",
+    "revision": "537c4dcefa0aa662327fe7387978e90c",
     "url": "/index.html"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.2e83cbec.js"
   },
   {
-    "revision": "dde7973bfa6ab864b41d",
-    "url": "/js/app.c8e0339c.js"
+    "revision": "10cc8e5205ae4ace26ed",
+    "url": "/js/app.9cf55564.js"
   },
   {
     "revision": "2edd98de4051f24401de",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/collectionsview.3cfb0267.js"
   },
   {
-    "revision": "e8d95c8a0bc4810a42e4",
-    "url": "/js/foradminview.fd5800d3.js"
+    "revision": "db1fa547f843962f7403",
+    "url": "/js/foradminview.1deb1a9b.js"
   },
   {
     "revision": "ecd314db265eadd2223c",
